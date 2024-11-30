@@ -1,8 +1,6 @@
 """
 @author: Kamaleshwar M
 
-Email : mkamaleshwar80@gmail.com
-
 """
 import tensorflow as tf
 from tensorflow.keras.callbacks import CSVLogger, ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
