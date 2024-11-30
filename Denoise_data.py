@@ -16,15 +16,9 @@ def load_audio_file(file_path: str) -> tuple:
 
 def compute_stft(signal: np.ndarray) -> tuple:
 
-    stft = librosa.stft(signal, n_fft=, hop_length=)
-    magnitude = np.abs(stft)
-    phase = np.angle(stft)
-    return magnitude, phase
 
 def reconstruct_audio(magnitude: np.ndarray, phase: np.ndarray, mask: np.ndarray) -> np.ndarray:
 
-    masked_magnitude = np.multiply(mask, magnitude)
-    stft = masked_magnitude * np.exp(1j * phase)
     return librosa.istft(stft, hop_length=, win_length=)
 
 def process_magnitude_in_chunks(model, magnitude: np.ndarray, chunk_size: int = ) -> np.ndarray:
