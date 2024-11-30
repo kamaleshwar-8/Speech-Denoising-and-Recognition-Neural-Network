@@ -1,8 +1,6 @@
 """
 @author: Kamaleshwar M
 
-Email : mkamaleshwar80@gmail.com
-
 """
 from tensorflow.keras import layers
 from tensorflow.keras.layers import TimeDistributed, LayerNormalization, Bidirectional
