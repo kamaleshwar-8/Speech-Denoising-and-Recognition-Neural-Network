@@ -63,10 +63,7 @@ def load_paired_data(clean_dir: str, noisy_dir: str, cache_dir: str = "cache") -
     
     def compute_masks(clean_mags, noisy_mags):
         masks = []
-        for clean_mag, noisy_mag in tqdm(zip(clean_mags, noisy_mags), 
-                                       desc='Computing masks',
-                                       total=len(clean_mags)):
-            masks.append(compute_ibm(clean_mag, noisy_mag))
+
         return masks
     
     masks = load_or_create_pickle(
