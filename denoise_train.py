@@ -1,8 +1,6 @@
 """
 @author: Kamaleshwar M
 
-Email : mkamaleshwar80@gmail.com
-
 """
 import os
 import numpy as np
