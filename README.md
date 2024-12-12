@@ -126,6 +126,14 @@ Select or record audio files using the provided GUI to analyze and view predicti
 ![4](https://github.com/user-attachments/assets/107faec6-e44f-4dd8-a99d-eeabf601ac4a)
 
 
+
+![snr_comparison_boxplot](https://github.com/user-attachments/assets/5e2f550e-e9d3-4228-a236-c7e44cbc18a0)
+
+
+
+![Screenshot 2024-12-12 191710](https://github.com/user-attachments/assets/66f04f62-7aed-4830-b7ef-3852bd776d56)
+
+
 ## Acknowledgements
 
 Special thanks to my friends Adhithya V, Akety Manjunath, Badri Prasanth G, HariHaran A M, Karthik Periyakarupphan M, Nidhish Kumar K and Velmugilan S, who contributed their voices to enhance the dataset for this project. Their diverse linguistic backgrounds and vocal characteristics were instrumental in developing a robust multilingual speech recognition model.
